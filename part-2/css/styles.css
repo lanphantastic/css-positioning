@@ -12,7 +12,8 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
+  width: 800px;
 }
 
 img {
@@ -24,6 +25,45 @@ figure {
 }
 
 .film {
-  width: 50%;
-  margin: 40px auto;
+  width: 92%;
+  margin: 20px auto;
+  position: relative;
+  border: 1px solid grey;
+  clear: both;
+  overflow: hidden;
+
+}
+
+.film-poster{
+  width: 30%;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin: 15px;
+}
+
+img{
+  position: relative;
+}
+
+.action-watch-later{
+  position: absolute;
+  top: 6%;
+  left: 27%;
+  color: red;
+}
+
+.film-title{
+  margin-left: 10px;
+}
+
+.film-details{
+  padding-right: 10px;
+}
+
+.action-like{
+  position: absolute;
+  color: red;
+  right: 1%;
+  bottom: 1%;
 }
